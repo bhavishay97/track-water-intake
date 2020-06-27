@@ -11,8 +11,8 @@ body {
 .big-cup {
   background: white;
   color: rgb(24, 76, 180);
-  border: 5px solid rgb(24, 76, 180);
-  border-radius: 0 0 40px 40px;
+  border: 0.3rem solid rgb(24, 76, 180);
+  border-radius: 0 0 2.5rem 2.5rem;
 
   width: 15em;
   min-height: 20em;
@@ -26,4 +26,42 @@ body {
   font-size: 2.2rem;
   background: rgb(110, 174, 199);
   min-width: 80%;
+}
+
+.cups {
+  min-height: 20em;
+}
+
+.small-cup {
+  background: white;
+  color: rgb(24, 76, 180);
+  border: 0.2rem solid rgb(24, 76, 180);
+  border-radius: 0 0 1rem 1rem;
+  cursor: pointer;
+}
+
+.cup-250 {
+  height: 5em;
+  width: 4em;
+}
+
+.cup-500 {
+  height: 8em;
+  width: 5em;
+}
+
+.cup-750 {
+  height: 11em;
+  width: 6em;
+}
+
+.cup-1000 {
+  height: 14em;
+  width: 7em;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    margin-top: 1em;
+  }
 }
