@@ -13,7 +13,6 @@ body {
   color: rgb(24, 76, 180);
   border: 0.3rem solid rgb(24, 76, 180);
   border-radius: 0 0 2.5rem 2.5rem;
-
   width: 15em;
   min-height: 20em;
 }
@@ -69,8 +68,24 @@ body {
   width: 7em;
 }
 
+.reset-button {
+  background: white;
+  color: rgb(24, 76, 180);
+  border: 0.2rem solid rgb(24, 76, 180);
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background: rgb(110, 174, 199);
+  color: white;
+}
+
 @media screen and (max-width: 768px) {
   .heading {
     margin-top: 1em;
+  }
+
+  .reset-button {
+    margin-bottom: 1em;
   }
 }
