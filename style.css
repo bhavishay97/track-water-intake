@@ -38,6 +38,15 @@ body {
   border: 0.2rem solid rgb(24, 76, 180);
   border-radius: 0 0 1rem 1rem;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.small-cup:hover {
+  background: rgb(110, 174, 199);
+  color: white;
 }
 
 .cup-250 {
