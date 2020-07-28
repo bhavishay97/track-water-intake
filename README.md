@@ -16,5 +16,5 @@ Screenshots below :
 <img src="/screenshots/screenshot-2.png" alt="goal achieved">
 </p>
 <p align="center">
-<img src="/screenshots/screenshot-3.png" alt="mobile responsive view" width="280" height="500">
+<img src="/screenshots/screenshot-3.png" alt="mobile responsive view" height="500em">
 </p>
